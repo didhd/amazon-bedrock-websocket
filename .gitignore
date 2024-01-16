@@ -1,0 +1,30 @@
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyc
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Terraform plan files
+*.tfplan
+
+# Terraform backup files
+*.backup
+
+# ZIP files
+*.zip
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+lambda-layer/python/
